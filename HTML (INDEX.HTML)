@@ -27,3 +27,78 @@
 
 </body>
 </html>
+
+
+/* Page background */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #87c7f3; /* light blue */
+    text-align: center;
+}
+
+/* Main container */
+.container {
+    padding: 40px;
+}
+
+/* Title styling */
+.title {
+    font-size: 60px;
+    color: yellow;
+    text-shadow: 3px 3px black;
+    margin-bottom: 40px;
+}
+
+/* Layout for middle section */
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-bottom: 60px;
+}
+
+/* Small water container icon */
+.water-box {
+    font-size: 50px;
+    background-color: yellow;
+    padding: 20px;
+    border: 3px solid black;
+}
+
+/* Main water droplet */
+.main-drop {
+    width: 120px;
+    height: 160px;
+    background-color: white;
+    border-radius: 50% 50% 50% 50%;
+    position: relative;
+}
+
+/* Make droplet shape */
+.main-drop::before {
+    content: "";
+    position: absolute;
+    top: -40px;
+    left: 30px;
+    width: 60px;
+    height: 80px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+/* Start button */
+.start-button {
+    background-color: pink;
+    border: 3px solid black;
+    font-size: 40px;
+    padding: 20px 60px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* Button hover effect */
+.start-button:hover {
+    background-color: hotpink;
+}
