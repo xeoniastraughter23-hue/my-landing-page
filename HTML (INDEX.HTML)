@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Water Start Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1 class="title">WATER</h1>
+
+        <div class="content">
+
+            <div class="water-box">
+                💧
+            </div>
+
+            <div class="main-drop"></div>
+
+        </div>
+
+        <button class="start-button">START</button>
+
+    </div>
+
+</body>
+</html>
